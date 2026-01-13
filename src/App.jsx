@@ -8,7 +8,7 @@ function App() {
       .then((response) => response.json())
       .then((data) => setUsers(data))
       .catch((error) => console.error("Error fetching users:", error));
-  }, []);
+  }, []); 
   console.log(users);
   
   return (
